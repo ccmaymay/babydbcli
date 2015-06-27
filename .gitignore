@@ -1,0 +1,4 @@
+/babydbcli.egg-info/
+/build/
+/dist/
+*.pyc
