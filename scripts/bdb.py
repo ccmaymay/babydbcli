@@ -14,6 +14,9 @@ def pull(client, remote_path, local_path):
     if not remote_path.startswith('/'):
         remote_path = '/' + remote_path
 
+    if os.path.isdir(local_path) and not local_path.endswith('/'):
+        local_path = local_path + '/'
+
     if local_path.endswith('/'):
         local_path = local_path + os.path.basename(remote_path)
 
