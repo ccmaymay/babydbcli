@@ -1,1 +1,14 @@
-push and pull files to/from dropbox (scp-style)
+Push and pull files to/from dropbox (scp-style).
+
+To set up babydbcli, run
+
+    python setup.py install
+
+then copy client_secrets.json.example to
+~/.babydbcli/client_secrets.json and replace the example values in the
+file with the actual app secrets.  Then run, e.g.,
+
+    bdb.py push foo
+
+to push the file foo in the current directory to the babydbcli app
+folder in your dropbox.

@@ -1,16 +1,14 @@
-from ez_setup import use_setuptools
-use_setuptools()
 from setuptools import setup
 
 
-__version__ = '0.1b0'
+__version__ = '0.1b1'
 
 
 setup(
     name='babydbcli',
     version=__version__,
     description='little Dropbox CLI',
-    scripts=['scripts/bdb'],
+    scripts=['scripts/bdb.py'],
     install_requires=[
         'dropbox>=2.2.0',
     ],
