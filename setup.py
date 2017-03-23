@@ -8,7 +8,7 @@ setup(
     name='babydbcli',
     version=__version__,
     description='little Dropbox CLI',
-    scripts=['scripts/bdb.py'],
+    scripts=['scripts/dbcp.py'],
     install_requires=[
         'dropbox>=2.2.0',
     ],
