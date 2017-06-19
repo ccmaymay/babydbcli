@@ -66,7 +66,7 @@ def main():
 
     logging.basicConfig(
         level=logging.INFO,
-        format='%(asctime)-15s %(levelname)s %(funcName)s: %(message)s'
+        format='%(asctime)-15s %(levelname)s: %(message)s'
     )
 
     secrets_path = os.path.expanduser('~/.babydbcli/client_secrets.json')
